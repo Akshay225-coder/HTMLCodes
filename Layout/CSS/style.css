@@ -1,0 +1,73 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*-----Header--------*/
+header{
+    background-color: aqua;
+    color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+/*--------Navigation Bar----*/
+nav{
+    padding: 15px;
+    border: 2px solid black;
+    overflow: auto;
+    background-color: black;    
+}
+ul{
+    float: right;
+    list-style-type:none;
+}
+li{
+    margin-right: 30px;
+    float: left;
+}
+a{
+    font-size: 30px;
+    color: blanchedalmond;
+    text-decoration: none;
+
+}
+/*-----------Section---------*/
+section{
+    overflow: auto;
+   /* border: 2px solid black;*/
+   
+}
+aside{
+    float: left;
+    height:400px;
+    width: 50%;
+    background-color: cadetblue;
+}
+article{
+    float: right;
+    
+    width: 50%;
+    background-color: crimson;
+}
+#a1{
+    height: 200px;
+    background-color: darkgoldenrod;
+}
+#a2{
+    height: 200px;
+    background-color: darkseagreen;
+}
+/*-------Main Content------*/
+main{
+    height: 500px;
+    background-color:deeppink;
+}
+/*-----------Footer-------SS*/
+footer{
+    background-color:lawngreen;
+    color:maroon;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
